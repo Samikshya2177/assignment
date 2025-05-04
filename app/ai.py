@@ -8,4 +8,4 @@ def analyze_sentiment(text):
     elif polarity < 0:
         return 'NEGATIVE'
     else:
-        return 'NEUTRAL'
+        return 'NEUTRAL' 
