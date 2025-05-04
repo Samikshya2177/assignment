@@ -8,4 +8,4 @@ def index():
     if request.method == 'POST':
         text = request.form['text']
         sentiment = analyze_sentiment(text)
-    return render_template('index.html', sentiment=sentiment)
+    return render_template('index.html', sentiment=sentiment) 
